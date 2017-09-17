@@ -1,0 +1,408 @@
+::selection
+{
+background:#444444;
+color:#f58220;
+}
+
+::-moz-selection { /* Code for Firefox */
+  background:#444444;
+  color:#f58220;
+}
+
+
+
+/* custom button*/
+.btnview{
+  background-color: #f58220;
+  color: #ffffff;
+  font-size: 20px;
+
+}
+.btnview:hover{
+  background-color: #444444;
+  color: #ffffff;
+}
+
+ /* footer*/
+#footer
+{
+width:100%;
+background-color:#444444;
+color:rgba(255,255,255,0.7);
+font-size:14px;
+font-family:'Helevitica';
+height: auto;
+}
+#footer-columns
+{
+margin:20px 0px 10px 0px;
+}
+#footer-strip{
+background-color:black;
+width:100%
+}
+#footer-note{
+color:#fff;
+font-family:'Tahoma';
+font-size:13px;
+margin:5px 0px 0px 0px;
+}
+.footer-link-group li a
+{
+color:white;
+font-family:'Calibri';
+font-size:15px;
+}
+.footer-link-group .footer-group-header{
+padding-bottom:3px;
+font-size:17px;
+font-family:'Calibri';
+border-bottom:1px dotted rgba(0,0,0,0.4);
+margin-bottom:3px;
+
+}
+.social-links {
+padding: 0;
+list-style: none;
+margin: 0px 0px 0px 0px;
+}
+.social-links li {
+margin: 0px 25px 0px 0;
+display: inline-block;
+font-size: 25px;
+}
+.social-links li a {
+color: #ffffff;
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+.social-links li.twitter a:hover {
+color: #4da7de;
+}
+.social-links li.skype a:hover {
+color: #00aff0;
+}
+.social-links li.linkedin a:hover {
+color: #3371b7;
+}
+.social-links li.googleplus a:hover {
+color: #dd4b39;
+}
+.social-links li.youtube a:hover {
+color: #e02a20;
+}
+.social-links li.flickr a:hover {
+color: #ff0084;
+}
+.social-links li.facebook a:hover {
+color: #3b5998;
+}
+.social-links li.pinterest a:hover {
+color: #cb2027;
+}
+.social-links li.instagram a:hover {
+color: #ff0084;
+}
+
+::-webkit-scrollbar {
+ width: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+ background: #444444;
+ box-shadow: inset 0 0 0 4px #444444;
+}
+
+html,
+body{
+
+scrollbar-face-color: #444444;
+scrollbar-base-color: #444444;
+scrollbar-track-color: #333333;
+scrollbar-arrow-color: #444444;
+scrollbar-shadow-color: #444444;
+}
+
+ .nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+        color: #fff;
+        background-color: #f58220;
+    }
+
+        .nav-pills > li.active > a:hover {
+            background-color: #f58220;
+            color:#fff;
+}
+.nav-pills > li > a, .nav-pills > li > a:focus {
+       color: #fff;
+       background-color: #444444;
+   }
+   .nav-pills > li:hover > a:hover {
+       background-color: #f58220;
+       color:#fff;
+}
+.tab-content{
+  padding-top: 5px;
+  margin-top: 5px;
+}
+.book{
+  max-width: 160px;
+  height: 180px;
+}
+.book:hover
+{
+    box-shadow: 0px 0px 80px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+#top {
+    background-color: #f58220;
+    color: #d9d9d9;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #0e0e0e
+}
+
+#top-strip-left a {
+    padding: 4px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px
+}
+#top-strip-right {
+    padding: 0
+}
+#top-strip-left {
+    padding: 0
+}
+#top div a:hover {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none
+}
+#nit-lines li {
+    padding: 10px
+}
+@media (max-width: 767px) {
+    #nit-lines {
+        text-align: center!important
+    }
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 16px;
+    background-color: rgba(128, 0, 0, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(128, 0, 0, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(128, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(128, 0, 0, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #800000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-form .navbar-search .navbar-right{
+	background-color: #800000;
+}
+.navbar-form .navbar-search:hover{
+	background-color: #fff;
+}
+
+#form-main{
+	width:100%;
+	float:right;
+	padding-top:0px;
+}
+
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+	width: 400px;
+	float: right;
+	right: 0%;
+	position: absolute;
+  margin-top:10px;
+	
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 15px;
+	background-color: #fbfbfb;
+	padding: 10px 10px 10px 50px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 10px 10px 10px 50px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #800000;
+	color:white;
+	font-size:18px;
+	padding-top:10px;
+	padding-bottom:10px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:500;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #800000;
+}
+	
+.submit:hover {
+	color: #800000;
+}
+	
+.ease {
+	width: 0px;
+	height: 54px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+		margin-bottom:15px;
+	}
+}
+#ques{
+	color:red;
+}
+
